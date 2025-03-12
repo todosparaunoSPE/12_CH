@@ -1,0 +1,3005 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_fe40cdb02246f3fa46be98a52ae345bd {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_fe40cdb02246f3fa46be98a52ae345bd" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_fe40cdb02246f3fa46be98a52ae345bd = L.map(
+                "map_fe40cdb02246f3fa46be98a52ae345bd",
+                {
+                    center: [20.763537046543213, -101.24381428641975],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 6,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_c458478f14dcf5794735be7a44231b8e = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_c458478f14dcf5794735be7a44231b8e.addTo(map_fe40cdb02246f3fa46be98a52ae345bd);
+        
+    
+            var marker_910d08e1e45fdb64aeff70d35cee95c5 = L.marker(
+                [20.5201708, -100.798132],
+                {
+}
+            ).addTo(map_fe40cdb02246f3fa46be98a52ae345bd);
+        
+    
+            var icon_f9a647309b53c9ad24ca68ef61ed3c37 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_910d08e1e45fdb64aeff70d35cee95c5.setIcon(icon_f9a647309b53c9ad24ca68ef61ed3c37);
+        
+    
+        var popup_2d7b067a7c27886e6d4561942320ecc3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1c4b4d06779efaa88a3ede9dbf9316bb = $(`<div id="html_1c4b4d06779efaa88a3ede9dbf9316bb" style="width: 100.0%; height: 100.0%;">AFORE: INBURSA Estado: Guanajuato</div>`)[0];
+                popup_2d7b067a7c27886e6d4561942320ecc3.setContent(html_1c4b4d06779efaa88a3ede9dbf9316bb);
+            
+        
+
+        marker_910d08e1e45fdb64aeff70d35cee95c5.bindPopup(popup_2d7b067a7c27886e6d4561942320ecc3)
+        ;
+
+        
+    
+    
+            var marker_208f8908fe082d65af77810d5e8e93a1 = L.marker(
+                [21.0311512, -101.8557271],
+                {
+}
+            ).addTo(map_fe40cdb02246f3fa46be98a52ae345bd);
+        
+    
+            var icon_5f0c95f437c12c1f11ba3520d7dd0bf5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_208f8908fe082d65af77810d5e8e93a1.setIcon(icon_5f0c95f437c12c1f11ba3520d7dd0bf5);
+        
+    
+        var popup_e6f25f7b0d7ea57915ad0fb3a6a1ac60 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f85c6ebdd9cb570b7b0dbc9b7c4a7071 = $(`<div id="html_f85c6ebdd9cb570b7b0dbc9b7c4a7071" style="width: 100.0%; height: 100.0%;">AFORE: INBURSA Estado: Guanajuato</div>`)[0];
+                popup_e6f25f7b0d7ea57915ad0fb3a6a1ac60.setContent(html_f85c6ebdd9cb570b7b0dbc9b7c4a7071);
+            
+        
+
+        marker_208f8908fe082d65af77810d5e8e93a1.bindPopup(popup_e6f25f7b0d7ea57915ad0fb3a6a1ac60)
+        ;
+
+        
+    
+    
+            var marker_1aee3b66f1f802638ecd5e175340bbd2 = L.marker(
+                [20.6877797, -101.3497098],
+                {
+}
+            ).addTo(map_fe40cdb02246f3fa46be98a52ae345bd);
+        
+    
+            var icon_3dde14fc2e6b60ce3a3e09aa4a9b992a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_1aee3b66f1f802638ecd5e175340bbd2.setIcon(icon_3dde14fc2e6b60ce3a3e09aa4a9b992a);
+        
+    
+        var popup_95e314056e710ee522021abf9a1e070a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_eba879f6e026154e03d3ce1881ef8210 = $(`<div id="html_eba879f6e026154e03d3ce1881ef8210" style="width: 100.0%; height: 100.0%;">AFORE: INBURSA Estado: Guanajuato</div>`)[0];
+                popup_95e314056e710ee522021abf9a1e070a.setContent(html_eba879f6e026154e03d3ce1881ef8210);
+            
+        
+
+        marker_1aee3b66f1f802638ecd5e175340bbd2.bindPopup(popup_95e314056e710ee522021abf9a1e070a)
+        ;
+
+        
+    
+    
+            var marker_5a5ebc2cc36da8fba9c2da4f6aee1472 = L.marker(
+                [21.1474282, -101.7027891],
+                {
+}
+            ).addTo(map_fe40cdb02246f3fa46be98a52ae345bd);
+        
+    
+            var icon_8ad1701432bc768c16971ac8359abd5f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_5a5ebc2cc36da8fba9c2da4f6aee1472.setIcon(icon_8ad1701432bc768c16971ac8359abd5f);
+        
+    
+        var popup_701d7c06495b2e456d23ab1b9bd66aa6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_52d799873fd2c9dc1e32b28d9b400f15 = $(`<div id="html_52d799873fd2c9dc1e32b28d9b400f15" style="width: 100.0%; height: 100.0%;">AFORE: INBURSA Estado: Guanajuato</div>`)[0];
+                popup_701d7c06495b2e456d23ab1b9bd66aa6.setContent(html_52d799873fd2c9dc1e32b28d9b400f15);
+            
+        
+
+        marker_5a5ebc2cc36da8fba9c2da4f6aee1472.bindPopup(popup_701d7c06495b2e456d23ab1b9bd66aa6)
+        ;
+
+        
+    
+    
+            var marker_2ff50d11bbcf391dcb44524344ec3f31 = L.marker(
+                [21.109618, -101.6904626],
+                {
+}
+            ).addTo(map_fe40cdb02246f3fa46be98a52ae345bd);
+        
+    
+            var icon_13cbacc2d9780dc52dad9aa307a8689e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_2ff50d11bbcf391dcb44524344ec3f31.setIcon(icon_13cbacc2d9780dc52dad9aa307a8689e);
+        
+    
+        var popup_006494c5c2fe0fc44de1aea92f53dd92 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_53dc0050c2959414e39d9155eebc73a0 = $(`<div id="html_53dc0050c2959414e39d9155eebc73a0" style="width: 100.0%; height: 100.0%;">AFORE: INBURSA Estado: Guanajuato</div>`)[0];
+                popup_006494c5c2fe0fc44de1aea92f53dd92.setContent(html_53dc0050c2959414e39d9155eebc73a0);
+            
+        
+
+        marker_2ff50d11bbcf391dcb44524344ec3f31.bindPopup(popup_006494c5c2fe0fc44de1aea92f53dd92)
+        ;
+
+        
+    
+    
+            var marker_7270f4e9cb9a759f4332a41e00019f33 = L.marker(
+                [20.5836761, -101.2145272],
+                {
+}
+            ).addTo(map_fe40cdb02246f3fa46be98a52ae345bd);
+        
+    
+            var icon_049e484239cf10c1a617b3cbdafd0525 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_7270f4e9cb9a759f4332a41e00019f33.setIcon(icon_049e484239cf10c1a617b3cbdafd0525);
+        
+    
+        var popup_df04a5dcfe83a4f75f91fc270c792ea6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f4a0b0c5017038f37ecfc76488649e81 = $(`<div id="html_f4a0b0c5017038f37ecfc76488649e81" style="width: 100.0%; height: 100.0%;">AFORE: INBURSA Estado: Guanajuato</div>`)[0];
+                popup_df04a5dcfe83a4f75f91fc270c792ea6.setContent(html_f4a0b0c5017038f37ecfc76488649e81);
+            
+        
+
+        marker_7270f4e9cb9a759f4332a41e00019f33.bindPopup(popup_df04a5dcfe83a4f75f91fc270c792ea6)
+        ;
+
+        
+    
+    
+            var marker_780e434de90c42294fa960cb318fb6a4 = L.marker(
+                [20.9039532, -100.7278496],
+                {
+}
+            ).addTo(map_fe40cdb02246f3fa46be98a52ae345bd);
+        
+    
+            var icon_06cb9ec950531d8f7f3cc86785756f6c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_780e434de90c42294fa960cb318fb6a4.setIcon(icon_06cb9ec950531d8f7f3cc86785756f6c);
+        
+    
+        var popup_dec3c4fe9e5020ea1f8e71a5886ed8b0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d970b98358b1b9f286198d3d052b07e3 = $(`<div id="html_d970b98358b1b9f286198d3d052b07e3" style="width: 100.0%; height: 100.0%;">AFORE: INBURSA Estado: Guanajuato</div>`)[0];
+                popup_dec3c4fe9e5020ea1f8e71a5886ed8b0.setContent(html_d970b98358b1b9f286198d3d052b07e3);
+            
+        
+
+        marker_780e434de90c42294fa960cb318fb6a4.bindPopup(popup_dec3c4fe9e5020ea1f8e71a5886ed8b0)
+        ;
+
+        
+    
+    
+            var marker_845a943562f8856cd314a808a0aa613b = L.marker(
+                [20.6890382, -101.3604809],
+                {
+}
+            ).addTo(map_fe40cdb02246f3fa46be98a52ae345bd);
+        
+    
+            var icon_0cd0eded255aa3691c530b7346052f2f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_845a943562f8856cd314a808a0aa613b.setIcon(icon_0cd0eded255aa3691c530b7346052f2f);
+        
+    
+        var popup_8c1f29346f0ee5d26b2e00a421668123 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4e9745d6bf42ecdeb141574073e01bc0 = $(`<div id="html_4e9745d6bf42ecdeb141574073e01bc0" style="width: 100.0%; height: 100.0%;">AFORE: PROFUTURO Estado: Guanajuato</div>`)[0];
+                popup_8c1f29346f0ee5d26b2e00a421668123.setContent(html_4e9745d6bf42ecdeb141574073e01bc0);
+            
+        
+
+        marker_845a943562f8856cd314a808a0aa613b.bindPopup(popup_8c1f29346f0ee5d26b2e00a421668123)
+        ;
+
+        
+    
+    
+            var marker_b33901bbe9983248ee6f4f814829aeb5 = L.marker(
+                [21.1039438, -101.6486946],
+                {
+}
+            ).addTo(map_fe40cdb02246f3fa46be98a52ae345bd);
+        
+    
+            var icon_40ece84e0963c535b95ab1efe28ef03a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_b33901bbe9983248ee6f4f814829aeb5.setIcon(icon_40ece84e0963c535b95ab1efe28ef03a);
+        
+    
+        var popup_17f0894d9f517f2257f96085408b8a04 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c532ac9446bb2e0e4767cd3fa2f8e141 = $(`<div id="html_c532ac9446bb2e0e4767cd3fa2f8e141" style="width: 100.0%; height: 100.0%;">AFORE: PROFUTURO Estado: Guanajuato</div>`)[0];
+                popup_17f0894d9f517f2257f96085408b8a04.setContent(html_c532ac9446bb2e0e4767cd3fa2f8e141);
+            
+        
+
+        marker_b33901bbe9983248ee6f4f814829aeb5.bindPopup(popup_17f0894d9f517f2257f96085408b8a04)
+        ;
+
+        
+    
+    
+            var marker_c571f3acf3a8fc236bd946f182489577 = L.marker(
+                [20.5192027, -100.8316224],
+                {
+}
+            ).addTo(map_fe40cdb02246f3fa46be98a52ae345bd);
+        
+    
+            var icon_623cd30104726d31e0832ac472d83e20 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_c571f3acf3a8fc236bd946f182489577.setIcon(icon_623cd30104726d31e0832ac472d83e20);
+        
+    
+        var popup_170b11049e22714031f2a72d857410eb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e4fda9adde75302fd696053d42965b37 = $(`<div id="html_e4fda9adde75302fd696053d42965b37" style="width: 100.0%; height: 100.0%;">AFORE: PROFUTURO Estado: Guanajuato</div>`)[0];
+                popup_170b11049e22714031f2a72d857410eb.setContent(html_e4fda9adde75302fd696053d42965b37);
+            
+        
+
+        marker_c571f3acf3a8fc236bd946f182489577.bindPopup(popup_170b11049e22714031f2a72d857410eb)
+        ;
+
+        
+    
+    
+            var marker_92192b3665201092adc14a2be6d3ae12 = L.marker(
+                [20.5281876, -100.8066376],
+                {
+}
+            ).addTo(map_fe40cdb02246f3fa46be98a52ae345bd);
+        
+    
+            var icon_27b9815144f4f4b831f81d51d365bf0f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_92192b3665201092adc14a2be6d3ae12.setIcon(icon_27b9815144f4f4b831f81d51d365bf0f);
+        
+    
+        var popup_b62d49b63774ad52d80c47a8f2c4da95 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4f87a0535d58e6faba0c6922e5e585ec = $(`<div id="html_4f87a0535d58e6faba0c6922e5e585ec" style="width: 100.0%; height: 100.0%;">AFORE: INVERCAP Estado: Guanajuato</div>`)[0];
+                popup_b62d49b63774ad52d80c47a8f2c4da95.setContent(html_4f87a0535d58e6faba0c6922e5e585ec);
+            
+        
+
+        marker_92192b3665201092adc14a2be6d3ae12.bindPopup(popup_b62d49b63774ad52d80c47a8f2c4da95)
+        ;
+
+        
+    
+    
+            var marker_64e5677a8a4204db2bb1cb4fdfc85958 = L.marker(
+                [20.6892914, -101.3552688],
+                {
+}
+            ).addTo(map_fe40cdb02246f3fa46be98a52ae345bd);
+        
+    
+            var icon_42dfd90d4b7b03eef0905f3a701acdfb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_64e5677a8a4204db2bb1cb4fdfc85958.setIcon(icon_42dfd90d4b7b03eef0905f3a701acdfb);
+        
+    
+        var popup_abf18f28f6a00eec767e04bb873f4375 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e3ba890cfa15c05a3065ee3798e90075 = $(`<div id="html_e3ba890cfa15c05a3065ee3798e90075" style="width: 100.0%; height: 100.0%;">AFORE: INVERCAP Estado: Guanajuato</div>`)[0];
+                popup_abf18f28f6a00eec767e04bb873f4375.setContent(html_e3ba890cfa15c05a3065ee3798e90075);
+            
+        
+
+        marker_64e5677a8a4204db2bb1cb4fdfc85958.bindPopup(popup_abf18f28f6a00eec767e04bb873f4375)
+        ;
+
+        
+    
+    
+            var marker_7dde5a6609324293c0cc51594429047c = L.marker(
+                [21.1193238, -101.6640547],
+                {
+}
+            ).addTo(map_fe40cdb02246f3fa46be98a52ae345bd);
+        
+    
+            var icon_c826387c911b90e40817ece9cdd8614f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_7dde5a6609324293c0cc51594429047c.setIcon(icon_c826387c911b90e40817ece9cdd8614f);
+        
+    
+        var popup_01a1b5d34ae112137f012eae99756d85 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2932bfd53aaff90caaee4bf3b97053f8 = $(`<div id="html_2932bfd53aaff90caaee4bf3b97053f8" style="width: 100.0%; height: 100.0%;">AFORE: INVERCAP Estado: Guanajuato</div>`)[0];
+                popup_01a1b5d34ae112137f012eae99756d85.setContent(html_2932bfd53aaff90caaee4bf3b97053f8);
+            
+        
+
+        marker_7dde5a6609324293c0cc51594429047c.bindPopup(popup_01a1b5d34ae112137f012eae99756d85)
+        ;
+
+        
+    
+    
+            var marker_dbc7cf865436e9b648530e39910518e0 = L.marker(
+                [20.5721858, -101.1999657],
+                {
+}
+            ).addTo(map_fe40cdb02246f3fa46be98a52ae345bd);
+        
+    
+            var icon_3f673ed3788a70a31b363338a078092e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_dbc7cf865436e9b648530e39910518e0.setIcon(icon_3f673ed3788a70a31b363338a078092e);
+        
+    
+        var popup_69d11bd85a881927afe9e2c4802195df = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f3aa5cf81d1bf31a5977564f051db7db = $(`<div id="html_f3aa5cf81d1bf31a5977564f051db7db" style="width: 100.0%; height: 100.0%;">AFORE: INVERCAP Estado: Guanajuato</div>`)[0];
+                popup_69d11bd85a881927afe9e2c4802195df.setContent(html_f3aa5cf81d1bf31a5977564f051db7db);
+            
+        
+
+        marker_dbc7cf865436e9b648530e39910518e0.bindPopup(popup_69d11bd85a881927afe9e2c4802195df)
+        ;
+
+        
+    
+    
+            var marker_c6310d4700d5ab2ac76324aa27a2a853 = L.marker(
+                [20.532269, -100.827153],
+                {
+}
+            ).addTo(map_fe40cdb02246f3fa46be98a52ae345bd);
+        
+    
+            var icon_25cc2aa1e7538d232b63a4b8a6a3f4f7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_c6310d4700d5ab2ac76324aa27a2a853.setIcon(icon_25cc2aa1e7538d232b63a4b8a6a3f4f7);
+        
+    
+        var popup_96bdb6ad53d5e4532af970e66cc01ff9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2f0f019c1241d0a9518dd42a141eb523 = $(`<div id="html_2f0f019c1241d0a9518dd42a141eb523" style="width: 100.0%; height: 100.0%;">AFORE: PENSIONISSSTE Estado: Guanajuato</div>`)[0];
+                popup_96bdb6ad53d5e4532af970e66cc01ff9.setContent(html_2f0f019c1241d0a9518dd42a141eb523);
+            
+        
+
+        marker_c6310d4700d5ab2ac76324aa27a2a853.bindPopup(popup_96bdb6ad53d5e4532af970e66cc01ff9)
+        ;
+
+        
+    
+    
+            var marker_278265ac1dd52f8d95a591653c477fce = L.marker(
+                [21.1199343, -101.6832585],
+                {
+}
+            ).addTo(map_fe40cdb02246f3fa46be98a52ae345bd);
+        
+    
+            var icon_28dcc485cd50148b41ada9bb9dc04354 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_278265ac1dd52f8d95a591653c477fce.setIcon(icon_28dcc485cd50148b41ada9bb9dc04354);
+        
+    
+        var popup_6d06471265fca8478310b9098686862a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fbf2495ac20b1e990ff6dd43174f22c9 = $(`<div id="html_fbf2495ac20b1e990ff6dd43174f22c9" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Guanajuato</div>`)[0];
+                popup_6d06471265fca8478310b9098686862a.setContent(html_fbf2495ac20b1e990ff6dd43174f22c9);
+            
+        
+
+        marker_278265ac1dd52f8d95a591653c477fce.bindPopup(popup_6d06471265fca8478310b9098686862a)
+        ;
+
+        
+    
+    
+            var marker_57ffc26308ae2fbced3637c83a29747c = L.marker(
+                [20.5197463, -100.8104069],
+                {
+}
+            ).addTo(map_fe40cdb02246f3fa46be98a52ae345bd);
+        
+    
+            var icon_1a3a9c196af1a6fd18117f68eefc5816 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_57ffc26308ae2fbced3637c83a29747c.setIcon(icon_1a3a9c196af1a6fd18117f68eefc5816);
+        
+    
+        var popup_cd7804ea561d3e615bc3c7444f707739 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a823f0d2f58e555ccec5d6a944a713ec = $(`<div id="html_a823f0d2f58e555ccec5d6a944a713ec" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Guanajuato</div>`)[0];
+                popup_cd7804ea561d3e615bc3c7444f707739.setContent(html_a823f0d2f58e555ccec5d6a944a713ec);
+            
+        
+
+        marker_57ffc26308ae2fbced3637c83a29747c.bindPopup(popup_cd7804ea561d3e615bc3c7444f707739)
+        ;
+
+        
+    
+    
+            var marker_35b05e10ba2ac5305067f033c51b028b = L.marker(
+                [20.6715483, -101.3481142],
+                {
+}
+            ).addTo(map_fe40cdb02246f3fa46be98a52ae345bd);
+        
+    
+            var icon_abb0690d22bb7636847d83b95c986354 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_35b05e10ba2ac5305067f033c51b028b.setIcon(icon_abb0690d22bb7636847d83b95c986354);
+        
+    
+        var popup_8f345dfa40eb38e4a10946f570f5ad6b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_22112e372f4b874de65acd66bb55df33 = $(`<div id="html_22112e372f4b874de65acd66bb55df33" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Guanajuato</div>`)[0];
+                popup_8f345dfa40eb38e4a10946f570f5ad6b.setContent(html_22112e372f4b874de65acd66bb55df33);
+            
+        
+
+        marker_35b05e10ba2ac5305067f033c51b028b.bindPopup(popup_8f345dfa40eb38e4a10946f570f5ad6b)
+        ;
+
+        
+    
+    
+            var marker_bdcb8863bee24b41abd75266d0a2cb6c = L.marker(
+                [21.099633, -101.6354555],
+                {
+}
+            ).addTo(map_fe40cdb02246f3fa46be98a52ae345bd);
+        
+    
+            var icon_e9725363011844dc09ba716d28d110eb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_bdcb8863bee24b41abd75266d0a2cb6c.setIcon(icon_e9725363011844dc09ba716d28d110eb);
+        
+    
+        var popup_25b23e914b9335ad12e0df9f67e4cf68 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_895bc14865a7d4378d494680af74b950 = $(`<div id="html_895bc14865a7d4378d494680af74b950" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Guanajuato</div>`)[0];
+                popup_25b23e914b9335ad12e0df9f67e4cf68.setContent(html_895bc14865a7d4378d494680af74b950);
+            
+        
+
+        marker_bdcb8863bee24b41abd75266d0a2cb6c.bindPopup(popup_25b23e914b9335ad12e0df9f67e4cf68)
+        ;
+
+        
+    
+    
+            var marker_b08a3cca298053ebf52135778b5effb4 = L.marker(
+                [21.1211701, -101.6826359],
+                {
+}
+            ).addTo(map_fe40cdb02246f3fa46be98a52ae345bd);
+        
+    
+            var icon_d99c7397810a1c6d18f96ecb16b542da = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_b08a3cca298053ebf52135778b5effb4.setIcon(icon_d99c7397810a1c6d18f96ecb16b542da);
+        
+    
+        var popup_8ec33aa5ccf7f693c1fa15884b430846 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_933a3924d514438ae11fc195695d8b1f = $(`<div id="html_933a3924d514438ae11fc195695d8b1f" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Guanajuato</div>`)[0];
+                popup_8ec33aa5ccf7f693c1fa15884b430846.setContent(html_933a3924d514438ae11fc195695d8b1f);
+            
+        
+
+        marker_b08a3cca298053ebf52135778b5effb4.bindPopup(popup_8ec33aa5ccf7f693c1fa15884b430846)
+        ;
+
+        
+    
+    
+            var marker_48718116075aba6fe5fb0d2cf72859fe = L.marker(
+                [21.1245091, -101.6827693],
+                {
+}
+            ).addTo(map_fe40cdb02246f3fa46be98a52ae345bd);
+        
+    
+            var icon_cdb2066f89d9ef13ecc0818c1952dbea = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_48718116075aba6fe5fb0d2cf72859fe.setIcon(icon_cdb2066f89d9ef13ecc0818c1952dbea);
+        
+    
+        var popup_d40786611f940cfdfb16defa9ced760e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_061b052123d56698ac0d69f9f61d755c = $(`<div id="html_061b052123d56698ac0d69f9f61d755c" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Guanajuato</div>`)[0];
+                popup_d40786611f940cfdfb16defa9ced760e.setContent(html_061b052123d56698ac0d69f9f61d755c);
+            
+        
+
+        marker_48718116075aba6fe5fb0d2cf72859fe.bindPopup(popup_d40786611f940cfdfb16defa9ced760e)
+        ;
+
+        
+    
+    
+            var marker_e1ae76ee5d8a4816c7a0dd4c5d4e0b01 = L.marker(
+                [20.5229269, -100.8378541],
+                {
+}
+            ).addTo(map_fe40cdb02246f3fa46be98a52ae345bd);
+        
+    
+            var icon_7fccc83de705326b9e501b7609e25ff5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_e1ae76ee5d8a4816c7a0dd4c5d4e0b01.setIcon(icon_7fccc83de705326b9e501b7609e25ff5);
+        
+    
+        var popup_169d7954acc290a7d888400ddb3cd10e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f1641399b4e5b3bd966053155567de29 = $(`<div id="html_f1641399b4e5b3bd966053155567de29" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Guanajuato</div>`)[0];
+                popup_169d7954acc290a7d888400ddb3cd10e.setContent(html_f1641399b4e5b3bd966053155567de29);
+            
+        
+
+        marker_e1ae76ee5d8a4816c7a0dd4c5d4e0b01.bindPopup(popup_169d7954acc290a7d888400ddb3cd10e)
+        ;
+
+        
+    
+    
+            var marker_a41f3c3992b5da7d1993e0c928d67950 = L.marker(
+                [21.1317337, -101.6586372],
+                {
+}
+            ).addTo(map_fe40cdb02246f3fa46be98a52ae345bd);
+        
+    
+            var icon_5e3f329fef070979bd9e22e943dc2036 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_a41f3c3992b5da7d1993e0c928d67950.setIcon(icon_5e3f329fef070979bd9e22e943dc2036);
+        
+    
+        var popup_60272063f64803a87e457e7c485bff96 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e3560c40561f8a1f1a454b9711c614ee = $(`<div id="html_e3560c40561f8a1f1a454b9711c614ee" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Guanajuato</div>`)[0];
+                popup_60272063f64803a87e457e7c485bff96.setContent(html_e3560c40561f8a1f1a454b9711c614ee);
+            
+        
+
+        marker_a41f3c3992b5da7d1993e0c928d67950.bindPopup(popup_60272063f64803a87e457e7c485bff96)
+        ;
+
+        
+    
+    
+            var marker_c0af312192f3773ee2003e1e6818c647 = L.marker(
+                [20.4856969, -100.9627273],
+                {
+}
+            ).addTo(map_fe40cdb02246f3fa46be98a52ae345bd);
+        
+    
+            var icon_37ac87415006d33f9f949cf856f1a30d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_c0af312192f3773ee2003e1e6818c647.setIcon(icon_37ac87415006d33f9f949cf856f1a30d);
+        
+    
+        var popup_4ae474d740281f71f1c5c92311f46985 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6d173076f3beb844a4e5bf8c874e7bbc = $(`<div id="html_6d173076f3beb844a4e5bf8c874e7bbc" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Guanajuato</div>`)[0];
+                popup_4ae474d740281f71f1c5c92311f46985.setContent(html_6d173076f3beb844a4e5bf8c874e7bbc);
+            
+        
+
+        marker_c0af312192f3773ee2003e1e6818c647.bindPopup(popup_4ae474d740281f71f1c5c92311f46985)
+        ;
+
+        
+    
+    
+            var marker_0041d79de65865b6a9099e5190b9321b = L.marker(
+                [21.0162182, -101.8582995],
+                {
+}
+            ).addTo(map_fe40cdb02246f3fa46be98a52ae345bd);
+        
+    
+            var icon_349b479cce3a207221adaa254301eabd = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_0041d79de65865b6a9099e5190b9321b.setIcon(icon_349b479cce3a207221adaa254301eabd);
+        
+    
+        var popup_8b9cef21f783535a31c8bd6d8dc66824 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4b43474c02a49961df2a6ed7b9a40833 = $(`<div id="html_4b43474c02a49961df2a6ed7b9a40833" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Guanajuato</div>`)[0];
+                popup_8b9cef21f783535a31c8bd6d8dc66824.setContent(html_4b43474c02a49961df2a6ed7b9a40833);
+            
+        
+
+        marker_0041d79de65865b6a9099e5190b9321b.bindPopup(popup_8b9cef21f783535a31c8bd6d8dc66824)
+        ;
+
+        
+    
+    
+            var marker_6d6821422c341a78077b5ab452ac6ba1 = L.marker(
+                [20.0305956, -100.7208391],
+                {
+}
+            ).addTo(map_fe40cdb02246f3fa46be98a52ae345bd);
+        
+    
+            var icon_16de4f3702f3f0c4b4354ab41530916d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_6d6821422c341a78077b5ab452ac6ba1.setIcon(icon_16de4f3702f3f0c4b4354ab41530916d);
+        
+    
+        var popup_45d3e01c0840597b76f89983cd5f9c53 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e65ffa511024d3f64efe49298ee6f63b = $(`<div id="html_e65ffa511024d3f64efe49298ee6f63b" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Guanajuato</div>`)[0];
+                popup_45d3e01c0840597b76f89983cd5f9c53.setContent(html_e65ffa511024d3f64efe49298ee6f63b);
+            
+        
+
+        marker_6d6821422c341a78077b5ab452ac6ba1.bindPopup(popup_45d3e01c0840597b76f89983cd5f9c53)
+        ;
+
+        
+    
+    
+            var marker_c24464d50fb098e83b91abec5702ea80 = L.marker(
+                [21.1059274, -101.7004453],
+                {
+}
+            ).addTo(map_fe40cdb02246f3fa46be98a52ae345bd);
+        
+    
+            var icon_cd328d37ea1a15026fa6d77eddfa7033 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_c24464d50fb098e83b91abec5702ea80.setIcon(icon_cd328d37ea1a15026fa6d77eddfa7033);
+        
+    
+        var popup_422301b76ac651a24fdf00f4c40c3fdb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_529dfd2e2a134631bb03ac6dca0b4fa8 = $(`<div id="html_529dfd2e2a134631bb03ac6dca0b4fa8" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Guanajuato</div>`)[0];
+                popup_422301b76ac651a24fdf00f4c40c3fdb.setContent(html_529dfd2e2a134631bb03ac6dca0b4fa8);
+            
+        
+
+        marker_c24464d50fb098e83b91abec5702ea80.bindPopup(popup_422301b76ac651a24fdf00f4c40c3fdb)
+        ;
+
+        
+    
+    
+            var marker_4362ee3e331eba9e72e27a30f7e3574c = L.marker(
+                [20.3927907, -101.181152],
+                {
+}
+            ).addTo(map_fe40cdb02246f3fa46be98a52ae345bd);
+        
+    
+            var icon_11064bb8207b33fd976a3cb692963f5c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_4362ee3e331eba9e72e27a30f7e3574c.setIcon(icon_11064bb8207b33fd976a3cb692963f5c);
+        
+    
+        var popup_22fe690e21ab013d292d2579e251a188 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_efe9054cad38aadf480b4f390e7a0171 = $(`<div id="html_efe9054cad38aadf480b4f390e7a0171" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Guanajuato</div>`)[0];
+                popup_22fe690e21ab013d292d2579e251a188.setContent(html_efe9054cad38aadf480b4f390e7a0171);
+            
+        
+
+        marker_4362ee3e331eba9e72e27a30f7e3574c.bindPopup(popup_22fe690e21ab013d292d2579e251a188)
+        ;
+
+        
+    
+    
+            var marker_8cc569058e24727252ac7e820c099948 = L.marker(
+                [20.6714496, -101.3716302],
+                {
+}
+            ).addTo(map_fe40cdb02246f3fa46be98a52ae345bd);
+        
+    
+            var icon_d7e837aad607bf601108f24a582fa98e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_8cc569058e24727252ac7e820c099948.setIcon(icon_d7e837aad607bf601108f24a582fa98e);
+        
+    
+        var popup_bf2eebfe7e85b936a797cef072685ae2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_18f1ff39d9f4dec7e1644a82577d1034 = $(`<div id="html_18f1ff39d9f4dec7e1644a82577d1034" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Guanajuato</div>`)[0];
+                popup_bf2eebfe7e85b936a797cef072685ae2.setContent(html_18f1ff39d9f4dec7e1644a82577d1034);
+            
+        
+
+        marker_8cc569058e24727252ac7e820c099948.bindPopup(popup_bf2eebfe7e85b936a797cef072685ae2)
+        ;
+
+        
+    
+    
+            var marker_f8e15bde0f5ae2d930e0dc762ea98a86 = L.marker(
+                [21.1426828, -101.6380239],
+                {
+}
+            ).addTo(map_fe40cdb02246f3fa46be98a52ae345bd);
+        
+    
+            var icon_d4d0abcfb3490f290fce484ec5fc50ae = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_f8e15bde0f5ae2d930e0dc762ea98a86.setIcon(icon_d4d0abcfb3490f290fce484ec5fc50ae);
+        
+    
+        var popup_6523b676947329b816c3483ea1c8fe8b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2222476f51cd241d042b8c58947e4ff7 = $(`<div id="html_2222476f51cd241d042b8c58947e4ff7" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Guanajuato</div>`)[0];
+                popup_6523b676947329b816c3483ea1c8fe8b.setContent(html_2222476f51cd241d042b8c58947e4ff7);
+            
+        
+
+        marker_f8e15bde0f5ae2d930e0dc762ea98a86.bindPopup(popup_6523b676947329b816c3483ea1c8fe8b)
+        ;
+
+        
+    
+    
+            var marker_b2abbaf2bd25cd6e7fc89404a1e298dc = L.marker(
+                [20.5749201, -101.1995037],
+                {
+}
+            ).addTo(map_fe40cdb02246f3fa46be98a52ae345bd);
+        
+    
+            var icon_3b07a1479b2e7559e0cd71ab0e719d78 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_b2abbaf2bd25cd6e7fc89404a1e298dc.setIcon(icon_3b07a1479b2e7559e0cd71ab0e719d78);
+        
+    
+        var popup_c91b2c8238501c4d9ccc301ad06dc049 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2537a689460ad687d3cfe941861cab09 = $(`<div id="html_2537a689460ad687d3cfe941861cab09" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Guanajuato</div>`)[0];
+                popup_c91b2c8238501c4d9ccc301ad06dc049.setContent(html_2537a689460ad687d3cfe941861cab09);
+            
+        
+
+        marker_b2abbaf2bd25cd6e7fc89404a1e298dc.bindPopup(popup_c91b2c8238501c4d9ccc301ad06dc049)
+        ;
+
+        
+    
+    
+            var marker_39f1f7dc7ca42549398d3fe6def6c149 = L.marker(
+                [20.6754983, -101.3404467],
+                {
+}
+            ).addTo(map_fe40cdb02246f3fa46be98a52ae345bd);
+        
+    
+            var icon_129cf46c30cac4bc3391d0e958d1b5f0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_39f1f7dc7ca42549398d3fe6def6c149.setIcon(icon_129cf46c30cac4bc3391d0e958d1b5f0);
+        
+    
+        var popup_810f2b3d628f6c68716d91c5f183345f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ccf01c29f1902ffb71a7464e9fd7582b = $(`<div id="html_ccf01c29f1902ffb71a7464e9fd7582b" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Guanajuato</div>`)[0];
+                popup_810f2b3d628f6c68716d91c5f183345f.setContent(html_ccf01c29f1902ffb71a7464e9fd7582b);
+            
+        
+
+        marker_39f1f7dc7ca42549398d3fe6def6c149.bindPopup(popup_810f2b3d628f6c68716d91c5f183345f)
+        ;
+
+        
+    
+    
+            var marker_86005688725d236a058ccda8a73ebdf8 = L.marker(
+                [21.0821629, -101.6410483],
+                {
+}
+            ).addTo(map_fe40cdb02246f3fa46be98a52ae345bd);
+        
+    
+            var icon_b4dd37e8902e62d7e0f7369df34410d6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_86005688725d236a058ccda8a73ebdf8.setIcon(icon_b4dd37e8902e62d7e0f7369df34410d6);
+        
+    
+        var popup_e2c7dfcb393042b8991d7da91bebc509 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f6de911c4a22ad3e09994e9c6d75e22a = $(`<div id="html_f6de911c4a22ad3e09994e9c6d75e22a" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Guanajuato</div>`)[0];
+                popup_e2c7dfcb393042b8991d7da91bebc509.setContent(html_f6de911c4a22ad3e09994e9c6d75e22a);
+            
+        
+
+        marker_86005688725d236a058ccda8a73ebdf8.bindPopup(popup_e2c7dfcb393042b8991d7da91bebc509)
+        ;
+
+        
+    
+    
+            var marker_ba68ce12b861e814f0640e74c89a0e28 = L.marker(
+                [20.9435213, -101.425398],
+                {
+}
+            ).addTo(map_fe40cdb02246f3fa46be98a52ae345bd);
+        
+    
+            var icon_8f6e4cdf2874948fc20fa6382e910a70 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_ba68ce12b861e814f0640e74c89a0e28.setIcon(icon_8f6e4cdf2874948fc20fa6382e910a70);
+        
+    
+        var popup_060f1d476716fbd185560907b8758f51 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fa849cfa551a274bb479f82b1ef04541 = $(`<div id="html_fa849cfa551a274bb479f82b1ef04541" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Guanajuato</div>`)[0];
+                popup_060f1d476716fbd185560907b8758f51.setContent(html_fa849cfa551a274bb479f82b1ef04541);
+            
+        
+
+        marker_ba68ce12b861e814f0640e74c89a0e28.bindPopup(popup_060f1d476716fbd185560907b8758f51)
+        ;
+
+        
+    
+    
+            var marker_803561acdb4a014ece5afd9026b6fcbc = L.marker(
+                [21.1583917, -100.9326698],
+                {
+}
+            ).addTo(map_fe40cdb02246f3fa46be98a52ae345bd);
+        
+    
+            var icon_a199a8472f29be8d4458b5b1ac19a11c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_803561acdb4a014ece5afd9026b6fcbc.setIcon(icon_a199a8472f29be8d4458b5b1ac19a11c);
+        
+    
+        var popup_cbbe8a0e0a93c4b38aa99ee9d32404a2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_aca342c25d9638dfea7e412b41c2b910 = $(`<div id="html_aca342c25d9638dfea7e412b41c2b910" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Guanajuato</div>`)[0];
+                popup_cbbe8a0e0a93c4b38aa99ee9d32404a2.setContent(html_aca342c25d9638dfea7e412b41c2b910);
+            
+        
+
+        marker_803561acdb4a014ece5afd9026b6fcbc.bindPopup(popup_cbbe8a0e0a93c4b38aa99ee9d32404a2)
+        ;
+
+        
+    
+    
+            var marker_40463b9ee586832ab6d7d6688981886b = L.marker(
+                [20.5262035, -100.8484653],
+                {
+}
+            ).addTo(map_fe40cdb02246f3fa46be98a52ae345bd);
+        
+    
+            var icon_52d517f5ecb656c1af6f063efb974463 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_40463b9ee586832ab6d7d6688981886b.setIcon(icon_52d517f5ecb656c1af6f063efb974463);
+        
+    
+        var popup_0866a0809c28a5e3f482a6cfc862f0a0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fe76e1b4c652c316f2bc5e5573d5476f = $(`<div id="html_fe76e1b4c652c316f2bc5e5573d5476f" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Guanajuato</div>`)[0];
+                popup_0866a0809c28a5e3f482a6cfc862f0a0.setContent(html_fe76e1b4c652c316f2bc5e5573d5476f);
+            
+        
+
+        marker_40463b9ee586832ab6d7d6688981886b.bindPopup(popup_0866a0809c28a5e3f482a6cfc862f0a0)
+        ;
+
+        
+    
+    
+            var marker_1168832059de14bd72d5426a9f5db644 = L.marker(
+                [20.4298196, -101.723577],
+                {
+}
+            ).addTo(map_fe40cdb02246f3fa46be98a52ae345bd);
+        
+    
+            var icon_92be4ff5e137580c1ec98f9f48a7896a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_1168832059de14bd72d5426a9f5db644.setIcon(icon_92be4ff5e137580c1ec98f9f48a7896a);
+        
+    
+        var popup_928ba54102fed1f7c2a4572012789aaf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cecb1e973c188e8d31cdcb6accab4883 = $(`<div id="html_cecb1e973c188e8d31cdcb6accab4883" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Guanajuato</div>`)[0];
+                popup_928ba54102fed1f7c2a4572012789aaf.setContent(html_cecb1e973c188e8d31cdcb6accab4883);
+            
+        
+
+        marker_1168832059de14bd72d5426a9f5db644.bindPopup(popup_928ba54102fed1f7c2a4572012789aaf)
+        ;
+
+        
+    
+    
+            var marker_a8ac6c998db4a42aa050e913e72c912c = L.marker(
+                [21.2973139, -100.5260149],
+                {
+}
+            ).addTo(map_fe40cdb02246f3fa46be98a52ae345bd);
+        
+    
+            var icon_7a92900239b193039cbc192f3627363f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_a8ac6c998db4a42aa050e913e72c912c.setIcon(icon_7a92900239b193039cbc192f3627363f);
+        
+    
+        var popup_c5e0e099ff055fb5fc13250b98d0ebab = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_164756b8b6b119b3c4e30700128318f6 = $(`<div id="html_164756b8b6b119b3c4e30700128318f6" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Guanajuato</div>`)[0];
+                popup_c5e0e099ff055fb5fc13250b98d0ebab.setContent(html_164756b8b6b119b3c4e30700128318f6);
+            
+        
+
+        marker_a8ac6c998db4a42aa050e913e72c912c.bindPopup(popup_c5e0e099ff055fb5fc13250b98d0ebab)
+        ;
+
+        
+    
+    
+            var marker_98f4f5bb2b9ba58589733bd5a1c9aa01 = L.marker(
+                [21.0206629, -101.2587114],
+                {
+}
+            ).addTo(map_fe40cdb02246f3fa46be98a52ae345bd);
+        
+    
+            var icon_5a36e0fbca2c607502a2758adc1fb037 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_98f4f5bb2b9ba58589733bd5a1c9aa01.setIcon(icon_5a36e0fbca2c607502a2758adc1fb037);
+        
+    
+        var popup_1f34d3c58d4240d335ac9b08520a2c99 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c9b378728f149137c4cacfab1774899d = $(`<div id="html_c9b378728f149137c4cacfab1774899d" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Guanajuato</div>`)[0];
+                popup_1f34d3c58d4240d335ac9b08520a2c99.setContent(html_c9b378728f149137c4cacfab1774899d);
+            
+        
+
+        marker_98f4f5bb2b9ba58589733bd5a1c9aa01.bindPopup(popup_1f34d3c58d4240d335ac9b08520a2c99)
+        ;
+
+        
+    
+    
+            var marker_b1239f70ef4ab71ef85e404988e1b302 = L.marker(
+                [20.1193202, -101.1767913],
+                {
+}
+            ).addTo(map_fe40cdb02246f3fa46be98a52ae345bd);
+        
+    
+            var icon_1d67d76b03cda09ed9d721d06aaa9b61 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_b1239f70ef4ab71ef85e404988e1b302.setIcon(icon_1d67d76b03cda09ed9d721d06aaa9b61);
+        
+    
+        var popup_9a17bbc595af89bb36ee27cc5ba7a3e8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_41a6b6f92dac207dc9322f32e83d7fc3 = $(`<div id="html_41a6b6f92dac207dc9322f32e83d7fc3" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Guanajuato</div>`)[0];
+                popup_9a17bbc595af89bb36ee27cc5ba7a3e8.setContent(html_41a6b6f92dac207dc9322f32e83d7fc3);
+            
+        
+
+        marker_b1239f70ef4ab71ef85e404988e1b302.bindPopup(popup_9a17bbc595af89bb36ee27cc5ba7a3e8)
+        ;
+
+        
+    
+    
+            var marker_d1e0437d53040fc42a6511fa15c574e9 = L.marker(
+                [20.5203446, -100.8155201],
+                {
+}
+            ).addTo(map_fe40cdb02246f3fa46be98a52ae345bd);
+        
+    
+            var icon_c3194b613de8346390fb807229dfafe0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_d1e0437d53040fc42a6511fa15c574e9.setIcon(icon_c3194b613de8346390fb807229dfafe0);
+        
+    
+        var popup_21479d59f6e2d4fd84c192544d1d71b3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9be5e41a93c23836e5f07f9267535faa = $(`<div id="html_9be5e41a93c23836e5f07f9267535faa" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Guanajuato</div>`)[0];
+                popup_21479d59f6e2d4fd84c192544d1d71b3.setContent(html_9be5e41a93c23836e5f07f9267535faa);
+            
+        
+
+        marker_d1e0437d53040fc42a6511fa15c574e9.bindPopup(popup_21479d59f6e2d4fd84c192544d1d71b3)
+        ;
+
+        
+    
+    
+            var marker_b6d66426a1831e8c1a0fa18fe80d98c2 = L.marker(
+                [20.570326, -101.1995528],
+                {
+}
+            ).addTo(map_fe40cdb02246f3fa46be98a52ae345bd);
+        
+    
+            var icon_2195e7ed9d783bc3e681df2419b1be9a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_b6d66426a1831e8c1a0fa18fe80d98c2.setIcon(icon_2195e7ed9d783bc3e681df2419b1be9a);
+        
+    
+        var popup_1ec19e438382ec099f4aaa88dd973187 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_77442d8e13fec2ea120aff3f74f2192d = $(`<div id="html_77442d8e13fec2ea120aff3f74f2192d" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Guanajuato</div>`)[0];
+                popup_1ec19e438382ec099f4aaa88dd973187.setContent(html_77442d8e13fec2ea120aff3f74f2192d);
+            
+        
+
+        marker_b6d66426a1831e8c1a0fa18fe80d98c2.bindPopup(popup_1ec19e438382ec099f4aaa88dd973187)
+        ;
+
+        
+    
+    
+            var marker_208197ced9ce17f8eabd24f47a22a862 = L.marker(
+                [21.0174609, -101.2569467],
+                {
+}
+            ).addTo(map_fe40cdb02246f3fa46be98a52ae345bd);
+        
+    
+            var icon_828d01e8acd488005d0b176b13562983 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_208197ced9ce17f8eabd24f47a22a862.setIcon(icon_828d01e8acd488005d0b176b13562983);
+        
+    
+        var popup_4d6695bbb86735df2f1f5cf7e1dad7f0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_93e268842ba2eef8fde93e306daa28e0 = $(`<div id="html_93e268842ba2eef8fde93e306daa28e0" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Guanajuato</div>`)[0];
+                popup_4d6695bbb86735df2f1f5cf7e1dad7f0.setContent(html_93e268842ba2eef8fde93e306daa28e0);
+            
+        
+
+        marker_208197ced9ce17f8eabd24f47a22a862.bindPopup(popup_4d6695bbb86735df2f1f5cf7e1dad7f0)
+        ;
+
+        
+    
+    
+            var marker_485a37dd682978224f3e67206456d142 = L.marker(
+                [20.3940037, -101.1820767],
+                {
+}
+            ).addTo(map_fe40cdb02246f3fa46be98a52ae345bd);
+        
+    
+            var icon_5c9332b3f1bb95eb9eec8b5430c3127d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_485a37dd682978224f3e67206456d142.setIcon(icon_5c9332b3f1bb95eb9eec8b5430c3127d);
+        
+    
+        var popup_7f8323582bb29d4aed72b65da49152cd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ad46c1a0dcfd8db465f4f065b48848d1 = $(`<div id="html_ad46c1a0dcfd8db465f4f065b48848d1" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Guanajuato</div>`)[0];
+                popup_7f8323582bb29d4aed72b65da49152cd.setContent(html_ad46c1a0dcfd8db465f4f065b48848d1);
+            
+        
+
+        marker_485a37dd682978224f3e67206456d142.bindPopup(popup_7f8323582bb29d4aed72b65da49152cd)
+        ;
+
+        
+    
+    
+            var marker_8b678290a993a9b993fce28b84b4e3a7 = L.marker(
+                [20.578068, -101.2154967],
+                {
+}
+            ).addTo(map_fe40cdb02246f3fa46be98a52ae345bd);
+        
+    
+            var icon_318514318d73fbe7dc0985e600443440 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_8b678290a993a9b993fce28b84b4e3a7.setIcon(icon_318514318d73fbe7dc0985e600443440);
+        
+    
+        var popup_46a195254e9375414f2a9d6c25b176a0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_56f4f76a5aa90b39a3b610ea2fd22d47 = $(`<div id="html_56f4f76a5aa90b39a3b610ea2fd22d47" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Guanajuato</div>`)[0];
+                popup_46a195254e9375414f2a9d6c25b176a0.setContent(html_56f4f76a5aa90b39a3b610ea2fd22d47);
+            
+        
+
+        marker_8b678290a993a9b993fce28b84b4e3a7.bindPopup(popup_46a195254e9375414f2a9d6c25b176a0)
+        ;
+
+        
+    
+    
+            var marker_bddd1b7d0e92f9e6e4e1a596986d8908 = L.marker(
+                [20.484853, -100.9631193],
+                {
+}
+            ).addTo(map_fe40cdb02246f3fa46be98a52ae345bd);
+        
+    
+            var icon_4b7b78237d117bfec5cadf6bb8c82239 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_bddd1b7d0e92f9e6e4e1a596986d8908.setIcon(icon_4b7b78237d117bfec5cadf6bb8c82239);
+        
+    
+        var popup_8bb41fe144bff9f117a949f2ba875630 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_338d2490fb35068bde18381abc13de9f = $(`<div id="html_338d2490fb35068bde18381abc13de9f" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Guanajuato</div>`)[0];
+                popup_8bb41fe144bff9f117a949f2ba875630.setContent(html_338d2490fb35068bde18381abc13de9f);
+            
+        
+
+        marker_bddd1b7d0e92f9e6e4e1a596986d8908.bindPopup(popup_8bb41fe144bff9f117a949f2ba875630)
+        ;
+
+        
+    
+    
+            var marker_67035caa2e7fefe0736cc95c14832a52 = L.marker(
+                [20.0315193, -100.7203767],
+                {
+}
+            ).addTo(map_fe40cdb02246f3fa46be98a52ae345bd);
+        
+    
+            var icon_f60fa5a387f174a1066408cf992b1c0f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_67035caa2e7fefe0736cc95c14832a52.setIcon(icon_f60fa5a387f174a1066408cf992b1c0f);
+        
+    
+        var popup_583f517c8369482f39167d953285ace8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dba9307b5aef7ed51e66408a04d75964 = $(`<div id="html_dba9307b5aef7ed51e66408a04d75964" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Guanajuato</div>`)[0];
+                popup_583f517c8369482f39167d953285ace8.setContent(html_dba9307b5aef7ed51e66408a04d75964);
+            
+        
+
+        marker_67035caa2e7fefe0736cc95c14832a52.bindPopup(popup_583f517c8369482f39167d953285ace8)
+        ;
+
+        
+    
+    
+            var marker_6f5b8deea06f54b55bfa0544dad035d0 = L.marker(
+                [20.459571, -101.529684],
+                {
+}
+            ).addTo(map_fe40cdb02246f3fa46be98a52ae345bd);
+        
+    
+            var icon_ae441f2d60ffdaadd4655b347f00f119 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_6f5b8deea06f54b55bfa0544dad035d0.setIcon(icon_ae441f2d60ffdaadd4655b347f00f119);
+        
+    
+        var popup_b3031727d304142575017959d8a40233 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_16c3fafaf296c3c97ef99dd2da5d7fcb = $(`<div id="html_16c3fafaf296c3c97ef99dd2da5d7fcb" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Guanajuato</div>`)[0];
+                popup_b3031727d304142575017959d8a40233.setContent(html_16c3fafaf296c3c97ef99dd2da5d7fcb);
+            
+        
+
+        marker_6f5b8deea06f54b55bfa0544dad035d0.bindPopup(popup_b3031727d304142575017959d8a40233)
+        ;
+
+        
+    
+    
+            var marker_d60227466f345fd69866478e6cc579fc = L.marker(
+                [20.6756743, -101.3421197],
+                {
+}
+            ).addTo(map_fe40cdb02246f3fa46be98a52ae345bd);
+        
+    
+            var icon_38756cc9fe53d3c28623b9043f9ace1c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_d60227466f345fd69866478e6cc579fc.setIcon(icon_38756cc9fe53d3c28623b9043f9ace1c);
+        
+    
+        var popup_ca956f582bcbc75d9c6b856a70ca63c6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0a1b9eba9be9e2073d0748af183069c5 = $(`<div id="html_0a1b9eba9be9e2073d0748af183069c5" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Guanajuato</div>`)[0];
+                popup_ca956f582bcbc75d9c6b856a70ca63c6.setContent(html_0a1b9eba9be9e2073d0748af183069c5);
+            
+        
+
+        marker_d60227466f345fd69866478e6cc579fc.bindPopup(popup_ca956f582bcbc75d9c6b856a70ca63c6)
+        ;
+
+        
+    
+    
+            var marker_3584de661865e0c7f609b6e3eadaf1b7 = L.marker(
+                [21.1221046, -101.6861823],
+                {
+}
+            ).addTo(map_fe40cdb02246f3fa46be98a52ae345bd);
+        
+    
+            var icon_991d981c1a26ce8180ab153b667f3973 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_3584de661865e0c7f609b6e3eadaf1b7.setIcon(icon_991d981c1a26ce8180ab153b667f3973);
+        
+    
+        var popup_97ab7c94890142e3eb1cbd8a2aa3fff4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_777125f343a1fff12eae3ab38cac57ad = $(`<div id="html_777125f343a1fff12eae3ab38cac57ad" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Guanajuato</div>`)[0];
+                popup_97ab7c94890142e3eb1cbd8a2aa3fff4.setContent(html_777125f343a1fff12eae3ab38cac57ad);
+            
+        
+
+        marker_3584de661865e0c7f609b6e3eadaf1b7.bindPopup(popup_97ab7c94890142e3eb1cbd8a2aa3fff4)
+        ;
+
+        
+    
+    
+            var marker_9b326536bae867b7ff1ff5c439a9c8ac = L.marker(
+                [20.1331139, -101.1880162],
+                {
+}
+            ).addTo(map_fe40cdb02246f3fa46be98a52ae345bd);
+        
+    
+            var icon_acea49d51a4bfd86ee99e65956f51798 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_9b326536bae867b7ff1ff5c439a9c8ac.setIcon(icon_acea49d51a4bfd86ee99e65956f51798);
+        
+    
+        var popup_26f1b477cd34c1d08d318d73025b19c5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4cf56b7e0c11bee2bafb9e832bf302c2 = $(`<div id="html_4cf56b7e0c11bee2bafb9e832bf302c2" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Guanajuato</div>`)[0];
+                popup_26f1b477cd34c1d08d318d73025b19c5.setContent(html_4cf56b7e0c11bee2bafb9e832bf302c2);
+            
+        
+
+        marker_9b326536bae867b7ff1ff5c439a9c8ac.bindPopup(popup_26f1b477cd34c1d08d318d73025b19c5)
+        ;
+
+        
+    
+    
+            var marker_3a7f0b6f5331a3971dcf61e4ae46db72 = L.marker(
+                [20.6431079, -100.9891788],
+                {
+}
+            ).addTo(map_fe40cdb02246f3fa46be98a52ae345bd);
+        
+    
+            var icon_c071c0b7a47a628356a26eb88d6bb9b2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_3a7f0b6f5331a3971dcf61e4ae46db72.setIcon(icon_c071c0b7a47a628356a26eb88d6bb9b2);
+        
+    
+        var popup_c3600d21fe749792384bf499e4b8534a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2f1e763b9b9b777e606bae6f8d250b6e = $(`<div id="html_2f1e763b9b9b777e606bae6f8d250b6e" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Guanajuato</div>`)[0];
+                popup_c3600d21fe749792384bf499e4b8534a.setContent(html_2f1e763b9b9b777e606bae6f8d250b6e);
+            
+        
+
+        marker_3a7f0b6f5331a3971dcf61e4ae46db72.bindPopup(popup_c3600d21fe749792384bf499e4b8534a)
+        ;
+
+        
+    
+    
+            var marker_b00ca55ae79f3caa6e46ffe2e3911c79 = L.marker(
+                [21.1580386, -100.9359799],
+                {
+}
+            ).addTo(map_fe40cdb02246f3fa46be98a52ae345bd);
+        
+    
+            var icon_d8c83b91703ecf65bbf1af24f827b105 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_b00ca55ae79f3caa6e46ffe2e3911c79.setIcon(icon_d8c83b91703ecf65bbf1af24f827b105);
+        
+    
+        var popup_f74b754943f7df9bec09a90407f5b9fa = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8ab5d7b5351d7bca6d42e123ad41f79e = $(`<div id="html_8ab5d7b5351d7bca6d42e123ad41f79e" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Guanajuato</div>`)[0];
+                popup_f74b754943f7df9bec09a90407f5b9fa.setContent(html_8ab5d7b5351d7bca6d42e123ad41f79e);
+            
+        
+
+        marker_b00ca55ae79f3caa6e46ffe2e3911c79.bindPopup(popup_f74b754943f7df9bec09a90407f5b9fa)
+        ;
+
+        
+    
+    
+            var marker_b6e624478dbeec4e87d6757ed6121d62 = L.marker(
+                [21.1460754, -101.6479787],
+                {
+}
+            ).addTo(map_fe40cdb02246f3fa46be98a52ae345bd);
+        
+    
+            var icon_d15da290e94ccbee9281d6d14e430e9b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_b6e624478dbeec4e87d6757ed6121d62.setIcon(icon_d15da290e94ccbee9281d6d14e430e9b);
+        
+    
+        var popup_2903bec6e56528032d6009abda33aa6b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ab82b9a30a1a03637304466db0ac80f2 = $(`<div id="html_ab82b9a30a1a03637304466db0ac80f2" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Guanajuato</div>`)[0];
+                popup_2903bec6e56528032d6009abda33aa6b.setContent(html_ab82b9a30a1a03637304466db0ac80f2);
+            
+        
+
+        marker_b6e624478dbeec4e87d6757ed6121d62.bindPopup(popup_2903bec6e56528032d6009abda33aa6b)
+        ;
+
+        
+    
+    
+            var marker_eaff250e0afa2a01aa1eec4399a1f149 = L.marker(
+                [20.8721811, -101.5157705],
+                {
+}
+            ).addTo(map_fe40cdb02246f3fa46be98a52ae345bd);
+        
+    
+            var icon_d85883e32b2b70cc2afbcb8f6bfcc0ba = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_eaff250e0afa2a01aa1eec4399a1f149.setIcon(icon_d85883e32b2b70cc2afbcb8f6bfcc0ba);
+        
+    
+        var popup_95cdd9ade354363364b52e887282e237 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_01b7c38b794323e392da3c1b42f5aa6e = $(`<div id="html_01b7c38b794323e392da3c1b42f5aa6e" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Guanajuato</div>`)[0];
+                popup_95cdd9ade354363364b52e887282e237.setContent(html_01b7c38b794323e392da3c1b42f5aa6e);
+            
+        
+
+        marker_eaff250e0afa2a01aa1eec4399a1f149.bindPopup(popup_95cdd9ade354363364b52e887282e237)
+        ;
+
+        
+    
+    
+            var marker_85c4541c13022fd88466d131b66a57bf = L.marker(
+                [20.3738191, -101.0644358],
+                {
+}
+            ).addTo(map_fe40cdb02246f3fa46be98a52ae345bd);
+        
+    
+            var icon_97c7ef3dc229a35f9fb38d056e3d78b0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_85c4541c13022fd88466d131b66a57bf.setIcon(icon_97c7ef3dc229a35f9fb38d056e3d78b0);
+        
+    
+        var popup_8ab06c635a844f1fb026255226baed96 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_435917d50de3faf6c870d97dd3fa2eb5 = $(`<div id="html_435917d50de3faf6c870d97dd3fa2eb5" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Guanajuato</div>`)[0];
+                popup_8ab06c635a844f1fb026255226baed96.setContent(html_435917d50de3faf6c870d97dd3fa2eb5);
+            
+        
+
+        marker_85c4541c13022fd88466d131b66a57bf.bindPopup(popup_8ab06c635a844f1fb026255226baed96)
+        ;
+
+        
+    
+    
+            var marker_75fab560fe6a3e7bc3bef1ee46c56052 = L.marker(
+                [20.621632, -101.6698299],
+                {
+}
+            ).addTo(map_fe40cdb02246f3fa46be98a52ae345bd);
+        
+    
+            var icon_5ba2f789c57d9f8b54fdb3e9ba3f33db = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_75fab560fe6a3e7bc3bef1ee46c56052.setIcon(icon_5ba2f789c57d9f8b54fdb3e9ba3f33db);
+        
+    
+        var popup_d508597747907696062d921a2e25b82e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_901c55d0d33e6e45660d1910d62ccf60 = $(`<div id="html_901c55d0d33e6e45660d1910d62ccf60" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Guanajuato</div>`)[0];
+                popup_d508597747907696062d921a2e25b82e.setContent(html_901c55d0d33e6e45660d1910d62ccf60);
+            
+        
+
+        marker_75fab560fe6a3e7bc3bef1ee46c56052.bindPopup(popup_d508597747907696062d921a2e25b82e)
+        ;
+
+        
+    
+    
+            var marker_444104ad1ff102ad02573947fcad5125 = L.marker(
+                [20.9118333, -100.7407895],
+                {
+}
+            ).addTo(map_fe40cdb02246f3fa46be98a52ae345bd);
+        
+    
+            var icon_9d245c34d7836274d33516da961d7a48 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_444104ad1ff102ad02573947fcad5125.setIcon(icon_9d245c34d7836274d33516da961d7a48);
+        
+    
+        var popup_09d592de5256599fad09aa63ae898b38 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fcb9e07209e3e8c5c5c1d59e69fdd3e3 = $(`<div id="html_fcb9e07209e3e8c5c5c1d59e69fdd3e3" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Guanajuato</div>`)[0];
+                popup_09d592de5256599fad09aa63ae898b38.setContent(html_fcb9e07209e3e8c5c5c1d59e69fdd3e3);
+            
+        
+
+        marker_444104ad1ff102ad02573947fcad5125.bindPopup(popup_09d592de5256599fad09aa63ae898b38)
+        ;
+
+        
+    
+    
+            var marker_20e5c26fa5db2e38c7add3e4444a11e9 = L.marker(
+                [20.4846205, -100.9623328],
+                {
+}
+            ).addTo(map_fe40cdb02246f3fa46be98a52ae345bd);
+        
+    
+            var icon_cfdf077b79a1b3068ca15982f3c46886 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_20e5c26fa5db2e38c7add3e4444a11e9.setIcon(icon_cfdf077b79a1b3068ca15982f3c46886);
+        
+    
+        var popup_8357678d1b7f9d81cef5eb89463c0155 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ce9356067c0476a52669cefe668b09a1 = $(`<div id="html_ce9356067c0476a52669cefe668b09a1" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Guanajuato</div>`)[0];
+                popup_8357678d1b7f9d81cef5eb89463c0155.setContent(html_ce9356067c0476a52669cefe668b09a1);
+            
+        
+
+        marker_20e5c26fa5db2e38c7add3e4444a11e9.bindPopup(popup_8357678d1b7f9d81cef5eb89463c0155)
+        ;
+
+        
+    
+    
+            var marker_16a5ca7e91a682cf9017b41df1f0a9a6 = L.marker(
+                [20.2115927, -100.8793258],
+                {
+}
+            ).addTo(map_fe40cdb02246f3fa46be98a52ae345bd);
+        
+    
+            var icon_e08d09616d52252510a17ba98ecb8b21 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_16a5ca7e91a682cf9017b41df1f0a9a6.setIcon(icon_e08d09616d52252510a17ba98ecb8b21);
+        
+    
+        var popup_96db80f666835ee7c2ed2e768ec6f91f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4bbbe2a415b6b9dd340891611c9a9dfa = $(`<div id="html_4bbbe2a415b6b9dd340891611c9a9dfa" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Guanajuato</div>`)[0];
+                popup_96db80f666835ee7c2ed2e768ec6f91f.setContent(html_4bbbe2a415b6b9dd340891611c9a9dfa);
+            
+        
+
+        marker_16a5ca7e91a682cf9017b41df1f0a9a6.bindPopup(popup_96db80f666835ee7c2ed2e768ec6f91f)
+        ;
+
+        
+    
+    
+            var marker_1f1eedb9dd4f938c86993e611c143d4c = L.marker(
+                [21.0047235, -100.3813291],
+                {
+}
+            ).addTo(map_fe40cdb02246f3fa46be98a52ae345bd);
+        
+    
+            var icon_c98e5746f8ae5c00fccb296e59331505 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_1f1eedb9dd4f938c86993e611c143d4c.setIcon(icon_c98e5746f8ae5c00fccb296e59331505);
+        
+    
+        var popup_a7d87c3340b8e74b58598df2289f8b87 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1b9f532f0b9b7d94def9c27c0579b91e = $(`<div id="html_1b9f532f0b9b7d94def9c27c0579b91e" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Guanajuato</div>`)[0];
+                popup_a7d87c3340b8e74b58598df2289f8b87.setContent(html_1b9f532f0b9b7d94def9c27c0579b91e);
+            
+        
+
+        marker_1f1eedb9dd4f938c86993e611c143d4c.bindPopup(popup_a7d87c3340b8e74b58598df2289f8b87)
+        ;
+
+        
+    
+    
+            var marker_9f507b112b91a111e397d35c46f0caac = L.marker(
+                [20.5446948, -100.6844284],
+                {
+}
+            ).addTo(map_fe40cdb02246f3fa46be98a52ae345bd);
+        
+    
+            var icon_42f7ae8381432506f28654fed4fbefcd = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_9f507b112b91a111e397d35c46f0caac.setIcon(icon_42f7ae8381432506f28654fed4fbefcd);
+        
+    
+        var popup_c341f23c9651cfff3b9a9f5dc2d33226 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a9b58525d553b5f6047ce767d8daad3b = $(`<div id="html_a9b58525d553b5f6047ce767d8daad3b" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Guanajuato</div>`)[0];
+                popup_c341f23c9651cfff3b9a9f5dc2d33226.setContent(html_a9b58525d553b5f6047ce767d8daad3b);
+            
+        
+
+        marker_9f507b112b91a111e397d35c46f0caac.bindPopup(popup_c341f23c9651cfff3b9a9f5dc2d33226)
+        ;
+
+        
+    
+    
+            var marker_f488476f3af4a062c7aaa37178080721 = L.marker(
+                [20.5568822, -101.2023556],
+                {
+}
+            ).addTo(map_fe40cdb02246f3fa46be98a52ae345bd);
+        
+    
+            var icon_58148568e9aaa2fe892d713eded44005 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_f488476f3af4a062c7aaa37178080721.setIcon(icon_58148568e9aaa2fe892d713eded44005);
+        
+    
+        var popup_bf19b681bda0fa1b79fc2bfbae6a6660 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2827b285b5d2031604007869e2339d36 = $(`<div id="html_2827b285b5d2031604007869e2339d36" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Guanajuato</div>`)[0];
+                popup_bf19b681bda0fa1b79fc2bfbae6a6660.setContent(html_2827b285b5d2031604007869e2339d36);
+            
+        
+
+        marker_f488476f3af4a062c7aaa37178080721.bindPopup(popup_bf19b681bda0fa1b79fc2bfbae6a6660)
+        ;
+
+        
+    
+    
+            var marker_5d434e192ee8cfd02c59817c149c9512 = L.marker(
+                [21.1758747, -101.6640771],
+                {
+}
+            ).addTo(map_fe40cdb02246f3fa46be98a52ae345bd);
+        
+    
+            var icon_66c856a339c4ee4ac857cdb81bba2659 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_5d434e192ee8cfd02c59817c149c9512.setIcon(icon_66c856a339c4ee4ac857cdb81bba2659);
+        
+    
+        var popup_1d4a241082650e0b6370ffbf5749ec83 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_80b942a1f268931a4e887bd698761a3f = $(`<div id="html_80b942a1f268931a4e887bd698761a3f" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Guanajuato</div>`)[0];
+                popup_1d4a241082650e0b6370ffbf5749ec83.setContent(html_80b942a1f268931a4e887bd698761a3f);
+            
+        
+
+        marker_5d434e192ee8cfd02c59817c149c9512.bindPopup(popup_1d4a241082650e0b6370ffbf5749ec83)
+        ;
+
+        
+    
+    
+            var marker_0cf4b80c9f2176a39c7a0fcaf1c7f489 = L.marker(
+                [20.9170187, -101.1617356],
+                {
+}
+            ).addTo(map_fe40cdb02246f3fa46be98a52ae345bd);
+        
+    
+            var icon_31bb95b11331e516c24d51b663233fb5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_0cf4b80c9f2176a39c7a0fcaf1c7f489.setIcon(icon_31bb95b11331e516c24d51b663233fb5);
+        
+    
+        var popup_8d31135fcfa5b11db1aa655442e9664a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_58cfab4944f43001381b7989d6a814e6 = $(`<div id="html_58cfab4944f43001381b7989d6a814e6" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Guanajuato</div>`)[0];
+                popup_8d31135fcfa5b11db1aa655442e9664a.setContent(html_58cfab4944f43001381b7989d6a814e6);
+            
+        
+
+        marker_0cf4b80c9f2176a39c7a0fcaf1c7f489.bindPopup(popup_8d31135fcfa5b11db1aa655442e9664a)
+        ;
+
+        
+    
+    
+            var marker_9f3d97288ee295b11f33a7f116f7687f = L.marker(
+                [20.643933, -100.9935281],
+                {
+}
+            ).addTo(map_fe40cdb02246f3fa46be98a52ae345bd);
+        
+    
+            var icon_cfb85d25c0e14756293a720de5d23e7e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_9f3d97288ee295b11f33a7f116f7687f.setIcon(icon_cfb85d25c0e14756293a720de5d23e7e);
+        
+    
+        var popup_9c3001763b38582a1cb584b8b726c7c7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d163eea3d5272aca1a694d64d656a6fc = $(`<div id="html_d163eea3d5272aca1a694d64d656a6fc" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Guanajuato</div>`)[0];
+                popup_9c3001763b38582a1cb584b8b726c7c7.setContent(html_d163eea3d5272aca1a694d64d656a6fc);
+            
+        
+
+        marker_9f3d97288ee295b11f33a7f116f7687f.bindPopup(popup_9c3001763b38582a1cb584b8b726c7c7)
+        ;
+
+        
+    
+    
+            var marker_e45da06c3fe69c7664e25b326b792527 = L.marker(
+                [20.5081789, -100.8156698],
+                {
+}
+            ).addTo(map_fe40cdb02246f3fa46be98a52ae345bd);
+        
+    
+            var icon_12b5c10669eac96e6d309b7ae753c51a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_e45da06c3fe69c7664e25b326b792527.setIcon(icon_12b5c10669eac96e6d309b7ae753c51a);
+        
+    
+        var popup_d5dff06d21c9911fc7c2e9b4606b14f5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_472c765d63ea28be924089809e9e8499 = $(`<div id="html_472c765d63ea28be924089809e9e8499" style="width: 100.0%; height: 100.0%;">AFORE: SURA Estado: Guanajuato</div>`)[0];
+                popup_d5dff06d21c9911fc7c2e9b4606b14f5.setContent(html_472c765d63ea28be924089809e9e8499);
+            
+        
+
+        marker_e45da06c3fe69c7664e25b326b792527.bindPopup(popup_d5dff06d21c9911fc7c2e9b4606b14f5)
+        ;
+
+        
+    
+    
+            var marker_e7acdcb637168a3a9bae52cc583e92b0 = L.marker(
+                [21.1616182, -101.6943475],
+                {
+}
+            ).addTo(map_fe40cdb02246f3fa46be98a52ae345bd);
+        
+    
+            var icon_172bc89150d442bba2f79e4051624a10 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_e7acdcb637168a3a9bae52cc583e92b0.setIcon(icon_172bc89150d442bba2f79e4051624a10);
+        
+    
+        var popup_3a7f35c6f57c4f6796bc29b1bf2ff26f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a9a026ac92e4d742230a3bc852763d2a = $(`<div id="html_a9a026ac92e4d742230a3bc852763d2a" style="width: 100.0%; height: 100.0%;">AFORE: SURA Estado: Guanajuato</div>`)[0];
+                popup_3a7f35c6f57c4f6796bc29b1bf2ff26f.setContent(html_a9a026ac92e4d742230a3bc852763d2a);
+            
+        
+
+        marker_e7acdcb637168a3a9bae52cc583e92b0.bindPopup(popup_3a7f35c6f57c4f6796bc29b1bf2ff26f)
+        ;
+
+        
+    
+    
+            var marker_b9b07e67c73e39c2a3a7ec03fa5d413e = L.marker(
+                [20.5190186, -100.8315226],
+                {
+}
+            ).addTo(map_fe40cdb02246f3fa46be98a52ae345bd);
+        
+    
+            var icon_6ac18dce135dbff3be0a98ca41fe1a34 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_b9b07e67c73e39c2a3a7ec03fa5d413e.setIcon(icon_6ac18dce135dbff3be0a98ca41fe1a34);
+        
+    
+        var popup_a17ee2904cd23ed3e025e8f4eccf3c6e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_694d29ab9425fe96e5d691b848068343 = $(`<div id="html_694d29ab9425fe96e5d691b848068343" style="width: 100.0%; height: 100.0%;">AFORE: CITIBANAMEX Estado: Guanajuato</div>`)[0];
+                popup_a17ee2904cd23ed3e025e8f4eccf3c6e.setContent(html_694d29ab9425fe96e5d691b848068343);
+            
+        
+
+        marker_b9b07e67c73e39c2a3a7ec03fa5d413e.bindPopup(popup_a17ee2904cd23ed3e025e8f4eccf3c6e)
+        ;
+
+        
+    
+    
+            var marker_bf4fc0a6e6f34afa7f4a56958957c5d1 = L.marker(
+                [21.0167018, -101.2561431],
+                {
+}
+            ).addTo(map_fe40cdb02246f3fa46be98a52ae345bd);
+        
+    
+            var icon_fb2051801edde5cb3dec44ea5f9b27f0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_bf4fc0a6e6f34afa7f4a56958957c5d1.setIcon(icon_fb2051801edde5cb3dec44ea5f9b27f0);
+        
+    
+        var popup_72c1b175370dff6abe3fd21f6f151aa1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_391f6f367a03f65ece829a079c2c3c84 = $(`<div id="html_391f6f367a03f65ece829a079c2c3c84" style="width: 100.0%; height: 100.0%;">AFORE: CITIBANAMEX Estado: Guanajuato</div>`)[0];
+                popup_72c1b175370dff6abe3fd21f6f151aa1.setContent(html_391f6f367a03f65ece829a079c2c3c84);
+            
+        
+
+        marker_bf4fc0a6e6f34afa7f4a56958957c5d1.bindPopup(popup_72c1b175370dff6abe3fd21f6f151aa1)
+        ;
+
+        
+    
+    
+            var marker_af56d2b30093a45fb8033c9b247ebae0 = L.marker(
+                [21.0173288, -101.2553015],
+                {
+}
+            ).addTo(map_fe40cdb02246f3fa46be98a52ae345bd);
+        
+    
+            var icon_d378677e96f862bcd4b38a38440484b6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_af56d2b30093a45fb8033c9b247ebae0.setIcon(icon_d378677e96f862bcd4b38a38440484b6);
+        
+    
+        var popup_11deac3bab5973496e5c170b5d1fc651 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_47d899d7caf7420abb9000e1d5b94b17 = $(`<div id="html_47d899d7caf7420abb9000e1d5b94b17" style="width: 100.0%; height: 100.0%;">AFORE: CITIBANAMEX Estado: Guanajuato</div>`)[0];
+                popup_11deac3bab5973496e5c170b5d1fc651.setContent(html_47d899d7caf7420abb9000e1d5b94b17);
+            
+        
+
+        marker_af56d2b30093a45fb8033c9b247ebae0.bindPopup(popup_11deac3bab5973496e5c170b5d1fc651)
+        ;
+
+        
+    
+    
+            var marker_7f91fd6786ec2610532cd8daff757609 = L.marker(
+                [21.1248955, -101.6809276],
+                {
+}
+            ).addTo(map_fe40cdb02246f3fa46be98a52ae345bd);
+        
+    
+            var icon_bf1062b5dab171f1632db46fb7825696 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_7f91fd6786ec2610532cd8daff757609.setIcon(icon_bf1062b5dab171f1632db46fb7825696);
+        
+    
+        var popup_46574e651adbe57e9b9a6ce8f4af30ee = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cc4a36e933f6d0f2341d1f8549c17a19 = $(`<div id="html_cc4a36e933f6d0f2341d1f8549c17a19" style="width: 100.0%; height: 100.0%;">AFORE: CITIBANAMEX Estado: Guanajuato</div>`)[0];
+                popup_46574e651adbe57e9b9a6ce8f4af30ee.setContent(html_cc4a36e933f6d0f2341d1f8549c17a19);
+            
+        
+
+        marker_7f91fd6786ec2610532cd8daff757609.bindPopup(popup_46574e651adbe57e9b9a6ce8f4af30ee)
+        ;
+
+        
+    
+    
+            var marker_23348599074db7332b8b43eda7a626c4 = L.marker(
+                [20.5203446, -100.8155201],
+                {
+}
+            ).addTo(map_fe40cdb02246f3fa46be98a52ae345bd);
+        
+    
+            var icon_d138d1ab2e4c0112d62a06ef95fd2e43 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_23348599074db7332b8b43eda7a626c4.setIcon(icon_d138d1ab2e4c0112d62a06ef95fd2e43);
+        
+    
+        var popup_f94a855bbe9b1d1bd805ce3dacc6e6da = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9d487c3d1336f6f8ec91876b6e1134c1 = $(`<div id="html_9d487c3d1336f6f8ec91876b6e1134c1" style="width: 100.0%; height: 100.0%;">AFORE: XXI-BANORTE Estado: Guanajuato</div>`)[0];
+                popup_f94a855bbe9b1d1bd805ce3dacc6e6da.setContent(html_9d487c3d1336f6f8ec91876b6e1134c1);
+            
+        
+
+        marker_23348599074db7332b8b43eda7a626c4.bindPopup(popup_f94a855bbe9b1d1bd805ce3dacc6e6da)
+        ;
+
+        
+    
+    
+            var marker_fc210c6ec467de1d356d7f30072de383 = L.marker(
+                [21.0128123, -101.261732],
+                {
+}
+            ).addTo(map_fe40cdb02246f3fa46be98a52ae345bd);
+        
+    
+            var icon_6322ceffbdbb4d98d5628c126d9fa20f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_fc210c6ec467de1d356d7f30072de383.setIcon(icon_6322ceffbdbb4d98d5628c126d9fa20f);
+        
+    
+        var popup_593f5ef7047e2c05ebd1dbdb32732185 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cdfc4993e63828be8b0aa2f541d25cd5 = $(`<div id="html_cdfc4993e63828be8b0aa2f541d25cd5" style="width: 100.0%; height: 100.0%;">AFORE: XXI-BANORTE Estado: Guanajuato</div>`)[0];
+                popup_593f5ef7047e2c05ebd1dbdb32732185.setContent(html_cdfc4993e63828be8b0aa2f541d25cd5);
+            
+        
+
+        marker_fc210c6ec467de1d356d7f30072de383.bindPopup(popup_593f5ef7047e2c05ebd1dbdb32732185)
+        ;
+
+        
+    
+    
+            var marker_1d917502a94b545dc3632e8739ee8190 = L.marker(
+                [20.6895292, -101.3544332],
+                {
+}
+            ).addTo(map_fe40cdb02246f3fa46be98a52ae345bd);
+        
+    
+            var icon_f74e2431d6da6e2057b7dd36bcbdab0a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_1d917502a94b545dc3632e8739ee8190.setIcon(icon_f74e2431d6da6e2057b7dd36bcbdab0a);
+        
+    
+        var popup_97541123b3ea11c0d260ddc6eeda9833 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2150a45b76dc042162f7474449a28773 = $(`<div id="html_2150a45b76dc042162f7474449a28773" style="width: 100.0%; height: 100.0%;">AFORE: XXI-BANORTE Estado: Guanajuato</div>`)[0];
+                popup_97541123b3ea11c0d260ddc6eeda9833.setContent(html_2150a45b76dc042162f7474449a28773);
+            
+        
+
+        marker_1d917502a94b545dc3632e8739ee8190.bindPopup(popup_97541123b3ea11c0d260ddc6eeda9833)
+        ;
+
+        
+    
+    
+            var marker_f2d7bc404d1d23ea07c85dd54bb1b16e = L.marker(
+                [21.1476788, -101.6859711],
+                {
+}
+            ).addTo(map_fe40cdb02246f3fa46be98a52ae345bd);
+        
+    
+            var icon_b8e636cda9b069e4f28e8767a9205c2d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_f2d7bc404d1d23ea07c85dd54bb1b16e.setIcon(icon_b8e636cda9b069e4f28e8767a9205c2d);
+        
+    
+        var popup_6d413adf8184cff3364749ff6a4f10ab = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b205fb3c7c4f7697d3a898c734ca38e4 = $(`<div id="html_b205fb3c7c4f7697d3a898c734ca38e4" style="width: 100.0%; height: 100.0%;">AFORE: XXI-BANORTE Estado: Guanajuato</div>`)[0];
+                popup_6d413adf8184cff3364749ff6a4f10ab.setContent(html_b205fb3c7c4f7697d3a898c734ca38e4);
+            
+        
+
+        marker_f2d7bc404d1d23ea07c85dd54bb1b16e.bindPopup(popup_6d413adf8184cff3364749ff6a4f10ab)
+        ;
+
+        
+    
+    
+            var marker_2a6b60799c9a534f105387babfa03406 = L.marker(
+                [21.1333162, -101.6876081],
+                {
+}
+            ).addTo(map_fe40cdb02246f3fa46be98a52ae345bd);
+        
+    
+            var icon_c5de4a690f2e8657e6f61ac198528cc4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_2a6b60799c9a534f105387babfa03406.setIcon(icon_c5de4a690f2e8657e6f61ac198528cc4);
+        
+    
+        var popup_b8474f94301c69a1b891ee10f9c1dfee = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_456f74bc1ab55948f10518e2a91e8f17 = $(`<div id="html_456f74bc1ab55948f10518e2a91e8f17" style="width: 100.0%; height: 100.0%;">AFORE: XXI-BANORTE Estado: Guanajuato</div>`)[0];
+                popup_b8474f94301c69a1b891ee10f9c1dfee.setContent(html_456f74bc1ab55948f10518e2a91e8f17);
+            
+        
+
+        marker_2a6b60799c9a534f105387babfa03406.bindPopup(popup_b8474f94301c69a1b891ee10f9c1dfee)
+        ;
+
+        
+    
+    
+            var marker_a96099a746889047312f6b54613234a3 = L.marker(
+                [20.5870169, -101.1865127],
+                {
+}
+            ).addTo(map_fe40cdb02246f3fa46be98a52ae345bd);
+        
+    
+            var icon_8b3ca165487ca3a9aded81a2da520326 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_a96099a746889047312f6b54613234a3.setIcon(icon_8b3ca165487ca3a9aded81a2da520326);
+        
+    
+        var popup_540848a263e134e40c6349b738ea5afe = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_733d8693d82c955e87392378524cf8a2 = $(`<div id="html_733d8693d82c955e87392378524cf8a2" style="width: 100.0%; height: 100.0%;">AFORE: XXI-BANORTE Estado: Guanajuato</div>`)[0];
+                popup_540848a263e134e40c6349b738ea5afe.setContent(html_733d8693d82c955e87392378524cf8a2);
+            
+        
+
+        marker_a96099a746889047312f6b54613234a3.bindPopup(popup_540848a263e134e40c6349b738ea5afe)
+        ;
+
+        
+    
+    
+            var marker_e2c0078de428dfefba5d3324d8b74a80 = L.marker(
+                [21.1557371, -101.7053482],
+                {
+}
+            ).addTo(map_fe40cdb02246f3fa46be98a52ae345bd);
+        
+    
+            var icon_37b31cc2595378f16fdc50e4e09843a8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_e2c0078de428dfefba5d3324d8b74a80.setIcon(icon_37b31cc2595378f16fdc50e4e09843a8);
+        
+    
+        var popup_94e29c64167ef0043265a22df5aafbb7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e4b1ae11e3aba572371f087cc978c699 = $(`<div id="html_e4b1ae11e3aba572371f087cc978c699" style="width: 100.0%; height: 100.0%;">AFORE: PRINCIPAL Estado: Guanajuato</div>`)[0];
+                popup_94e29c64167ef0043265a22df5aafbb7.setContent(html_e4b1ae11e3aba572371f087cc978c699);
+            
+        
+
+        marker_e2c0078de428dfefba5d3324d8b74a80.bindPopup(popup_94e29c64167ef0043265a22df5aafbb7)
+        ;
+
+        
+    
+    
+            var marker_5e041f7ab7f14a1da46b67a6f8c86665 = L.marker(
+                [20.5245763, -100.812148],
+                {
+}
+            ).addTo(map_fe40cdb02246f3fa46be98a52ae345bd);
+        
+    
+            var icon_5eb783cfb626cf6b0110295195bc8e1a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_5e041f7ab7f14a1da46b67a6f8c86665.setIcon(icon_5eb783cfb626cf6b0110295195bc8e1a);
+        
+    
+        var popup_107ac323a927663fa45a24ea5a83ae41 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_66aa90a468c2aa98c436064cbf45a33f = $(`<div id="html_66aa90a468c2aa98c436064cbf45a33f" style="width: 100.0%; height: 100.0%;">AFORE: AZTECA Estado: Guanajuato</div>`)[0];
+                popup_107ac323a927663fa45a24ea5a83ae41.setContent(html_66aa90a468c2aa98c436064cbf45a33f);
+            
+        
+
+        marker_5e041f7ab7f14a1da46b67a6f8c86665.bindPopup(popup_107ac323a927663fa45a24ea5a83ae41)
+        ;
+
+        
+    
+    
+            var marker_2f431f21a984f2680ef3140f84f6d3a2 = L.marker(
+                [20.75308397, -101.2356545],
+                {
+}
+            ).addTo(map_fe40cdb02246f3fa46be98a52ae345bd);
+        
+    
+            var icon_69c02d5d0a4e0f3177571b8127e4cec8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "black",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_2f431f21a984f2680ef3140f84f6d3a2.setIcon(icon_69c02d5d0a4e0f3177571b8127e4cec8);
+        
+    
+        var popup_e84b446837d2e34e83ec7693e06d95df = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1787c9fca600418bdc78c25c486c1d17 = $(`<div id="html_1787c9fca600418bdc78c25c486c1d17" style="width: 100.0%; height: 100.0%;">AFORE: Nuevo CAP Estado: Guanajuato</div>`)[0];
+                popup_e84b446837d2e34e83ec7693e06d95df.setContent(html_1787c9fca600418bdc78c25c486c1d17);
+            
+        
+
+        marker_2f431f21a984f2680ef3140f84f6d3a2.bindPopup(popup_e84b446837d2e34e83ec7693e06d95df)
+        ;
+
+        
+    
+    
+            tile_layer_c458478f14dcf5794735be7a44231b8e.addTo(map_fe40cdb02246f3fa46be98a52ae345bd);
+        
+</script>
+</html>
